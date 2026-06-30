@@ -1,0 +1,4 @@
+swift_analytics/database.duckdb
+swift_analytics/database.duckdb.wal
+.venv/
+__pycache__/

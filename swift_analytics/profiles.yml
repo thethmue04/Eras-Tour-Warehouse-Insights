@@ -1,0 +1,7 @@
+swift_analytics:
+  outputs:
+    dev:
+      type: duckdb
+      path: './database.duckdb'
+      schema: main
+  target: dev

@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: dim_venues
+    columns:
+      - name: venue_key
+        tests:
+          - unique
+          - not_null
+
+  - name: fct_concert_sales
+    columns:
+      - name: concert_id
+        tests:
+          - unique
+          - not_null
+      - name: tickets_sold
+        tests:
+          - not_null
